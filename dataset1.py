@@ -41,5 +41,5 @@ plt.grid(True)
 plt.legend()
 
 # 画像として保存
-plt.savefig('ex1.2.png')
+plt.savefig('image/ex1.2.png')
 plt.show()
