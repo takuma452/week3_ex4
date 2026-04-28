@@ -19,10 +19,7 @@ x_obs = np.random.uniform(-1, 1, n)
 y_true = true_function(x_obs)
 
 
-df = pd.DataFrame({
-    '観測点': x_obs,
-    '真値': y_true
-})
+df = pd.read_csv('dataset/dataset1.tsv', sep='\t')
 
 # ノイズを生成
 std_dev = np.sqrt(2.0)
