@@ -53,3 +53,6 @@ plt.legend()
 # 画像として保存
 plt.savefig('image/ex1.3.png')
 plt.show()
+
+# データセットをTSV形式で保存
+df.to_csv('dataset/dataset1.tsv', sep='\t', index=False)
